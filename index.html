@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Dice Game</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="message">Player 1 Turn</h1>
+            <h2>Round: <span id="round">1</span></h2>
+            <div class="players">
+                <div id="player1">
+                    <h1>Score: 
+                        <span id="player1Scoreboard">0</span>
+                    </h1>
+                    <div id="player1Dice" class="dice active">
+                        <div class="die1 die dieP1">
+                            <div class="dot dot-c"></div>
+                        </div>
+                        <div class="die2 die dieP1">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die3 die dieP1">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-c"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die4 die dieP1">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-bl"></div>
+                            <div class="dot dot-tr"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die5 die dieP1">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-bl"></div>
+                            <div class="dot dot-c"></div>
+                            <div class="dot dot-tr"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die6 die dieP1">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-cl"></div>
+                            <div class="dot dot-bl"></div>
+                            <div class="dot dot-tr"></div>
+                            <div class="dot dot-cr"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="player2">
+                    <h1>Score: 
+                        <span id="player2Scoreboard">0</span>
+                    </h1>
+                    <div id="player2Dice" class="dice">
+                        <div class="die1 die dieP2">
+                            <div class="dot dot-c"></div>
+                        </div>
+                        <div class="die2 die dieP2">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die3 die dieP2">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-c"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die4 die dieP2">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-bl"></div>
+                            <div class="dot dot-tr"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die5 die dieP2">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-bl"></div>
+                            <div class="dot dot-c"></div>
+                            <div class="dot dot-tr"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                        <div class="die6 die dieP2">
+                            <div class="dot dot-tl"></div>
+                            <div class="dot dot-cl"></div>
+                            <div class="dot dot-bl"></div>
+                            <div class="dot dot-tr"></div>
+                            <div class="dot dot-cr"></div>
+                            <div class="dot dot-br"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="rollBtn">Roll Dice 🎲</button>
+            <button id="newRoundBtn">Start Next Round</button>
+            <button id="resetBtn">Reset Game 🔁</button>
+        </div>
+    </body>
+</html>
