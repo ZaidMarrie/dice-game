@@ -26,7 +26,7 @@ The user should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Dice Game Live Demo](https://user-images.githubusercontent.com/84665360/136776500-431c047d-73a3-4742-ab4c-4f6073157614.png)
 
 
 ### Links
